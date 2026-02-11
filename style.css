@@ -73,3 +73,16 @@ label {
   display: inline;
   color: red;
 }
+
+/* Highlight for continent images */
+.img-highlight {
+  outline: 6px solid #2ecc71;
+  filter: brightness(1.05);
+  transition: outline 120ms ease, filter 120ms ease;
+}
+
+/* Screen-reader / alert area styling */
+#sr-continent-alert {
+  font-weight: 600;
+  min-height: 1.2em;
+}
